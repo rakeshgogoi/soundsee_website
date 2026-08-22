@@ -84,10 +84,12 @@ header.site .wrap {
 }
 
 .brand-tag {
-  font-size: 10px;
+  display: block;
+  font-size: 8px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: 0.25em;
+  text-align: justify;
+  text-align-last: justify;
   text-transform: uppercase;
   color: var(--text-secondary);
   margin-top: 1px;
