@@ -211,11 +211,6 @@ p {
   text-decoration: none;
 }
 
-.btn-secondary[aria-disabled="true"] {
-  opacity: 0.55;
-  pointer-events: none;
-}
-
 .steps {
   display: grid;
   gap: 16px;
