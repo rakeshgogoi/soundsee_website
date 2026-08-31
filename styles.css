@@ -183,18 +183,21 @@ p {
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  justify-content: center;
+  gap: 8px;
   padding: 13px 22px;
   border-radius: 10px;
   font-size: 14.5px;
   font-weight: 600;
+  white-space: nowrap;
   border: 1px solid transparent;
 }
 
 .btn-icon {
-  width: 17px;
-  height: 17px;
-  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  flex: none;
+  vertical-align: middle;
 }
 
 .btn-primary {
