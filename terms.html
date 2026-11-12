@@ -18,15 +18,26 @@
   <meta name="twitter:description" content="The terms that govern your use of the SoundSee app." />
   <meta name="twitter:image" content="https://soundsee.in/images/og-image.png" />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="images/favicon-64.png" />
+  <meta name="theme-color" content="#11100f" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body class="legal">
   <header class="site">
     <div class="wrap">
-      <div class="brand">
-        <a class="wordmark" href="index.html"><span class="sound">Sound</span><span class="see">See</span></a>
-        <div class="brand-tag" aria-label="Northeast">N O R T H E A S T</div>
-      </div>
+      <a class="brand" href="index.html" aria-label="SoundSee — home">
+        <img class="brand-mark" src="images/logo-mark.png" alt="" width="38" height="34" />
+        <span class="brand-text">
+          <span class="wordmark"><span class="sound">Sound</span><span class="see">See</span></span>
+          <span class="brand-tag" aria-hidden="true">N O R T H E A S T</span>
+        </span>
+      </a>
+      <nav class="primary" aria-label="Main">
+        <a href="index.html#films">Films</a>
+        <a href="index.html#filmmakers">For filmmakers</a>
+        <a href="index.html#contact">Contact</a>
+        <a class="btn btn-primary btn-sm" href="index.html#get-app">Get the app</a>
+      </nav>
     </div>
   </header>
 
@@ -168,12 +179,10 @@
 
   <footer class="site">
     <div class="wrap">
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="mailto:contact@soundsee.in">Contact</a>
-      </nav>
-      <span class="copyright">&copy; 2026 <a href="https://codingryder.com">Coding Ryder</a>. All rights reserved.</span>
+      <div class="legalbar" style="margin-top:0;padding-top:0;border-top:0">
+        <span>&copy; 2026 <a href="https://codingryder.com">Coding Ryder</a>. All rights reserved.</span>
+        <span><a href="index.html">Home</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms &amp; Conditions</a> &nbsp;·&nbsp; <a href="mailto:contact@soundsee.in">Contact</a></span>
+      </div>
     </div>
   </footer>
 </body>
